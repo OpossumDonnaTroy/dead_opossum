@@ -15,7 +15,8 @@ def gen_log(log_date):
         severity = random.choice(['INFO', 'ERR', 'WARN', 'DEBUG', 'FATAL'])
         rand_microsec = random.randint(1, 999999)
         log_date += datetime.timedelta(microseconds=rand_microsec)
-        text += f'{log_date} [{severity}]\n'
+        event = random.choice(['Disk is FULL', 'No connection', 'PLC is unsynced', 'Device is unavaible', 'Memory FULL', 'Connection Timeout', 'CPU load more 90%'])
+        text += f'{log_date} [{severity}] {event}\n'
     return text
 
 now = datetime.datetime.now()
