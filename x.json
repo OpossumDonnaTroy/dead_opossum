@@ -1,0 +1,18 @@
+{
+    "Id": 1844,
+    "LabelId": 2,
+    "Points": [
+        {
+            "Y": 0.26,
+            "X": 0.0,
+            "PositionInGroup": 1
+        },
+        {
+            "Y": 0.3,
+            "X": 0.06,
+            "PositionInGroup": 2
+        }
+    ],
+    "LabelPattern": "Box",
+    "ImageFrameId": 0
+}
